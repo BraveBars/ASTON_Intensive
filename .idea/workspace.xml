@@ -76,7 +76,7 @@
     "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.EvenNumbers">
+  <component name="RunManager" selected="Application.SumArray">
     <configuration name="EvenNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.aston.matveenko_ym.task1.EvenNumbers" />
       <module name="ASTON_Intensive" />
@@ -111,8 +111,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.EvenNumbers" />
         <item itemvalue="Application.SumArray" />
+        <item itemvalue="Application.EvenNumbers" />
       </list>
     </recent_temporary>
   </component>
