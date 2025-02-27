@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a6be140e-bc53-4d18-ada0-c1a209234621" name="Changes" comment="task1 (Stream API examples).">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/aston/matveenko_ym/task1/product/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/aston/matveenko_ym/task1/StreamExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -72,6 +72,7 @@
     "Application.FilterNegativeNumbers.executor": "Run",
     "Application.ProductTable.executor": "Run",
     "Application.SortArray.executor": "Run",
+    "Application.StreamExample.executor": "Run",
     "Application.SumArray.executor": "Run",
     "Application.WordsToMap.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -86,7 +87,7 @@
     "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.ProductTable">
+  <component name="RunManager" selected="Application.StreamExample">
     <configuration name="FilterList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.aston.matveenko_ym.task1.FilterList" />
       <module name="ASTON_Intensive" />
@@ -126,12 +127,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.aston.matveenko_ym.task1.SortArray" />
+    <configuration name="StreamExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.aston.matveenko_ym.task1.StreamExample" />
       <module name="ASTON_Intensive" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.aston.matveenko_ym.task1.product.*" />
+          <option name="PATTERN" value="ru.aston.matveenko_ym.task1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -156,16 +157,16 @@
       <item itemvalue="Application.FilterList" />
       <item itemvalue="Application.FilterNegativeNumbers" />
       <item itemvalue="Application.ProductTable" />
-      <item itemvalue="Application.SortArray" />
+      <item itemvalue="Application.StreamExample" />
       <item itemvalue="Application.WordsToMap" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StreamExample" />
         <item itemvalue="Application.ProductTable" />
         <item itemvalue="Application.WordsToMap" />
         <item itemvalue="Application.FilterList" />
         <item itemvalue="Application.FilterNegativeNumbers" />
-        <item itemvalue="Application.SortArray" />
       </list>
     </recent_temporary>
   </component>
@@ -282,7 +283,15 @@
       <option name="project" value="LOCAL" />
       <updated>1740684243000</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="task1 (Stream API examples).">
+      <option name="closed" value="true" />
+      <created>1740685590439</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1740685590439</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
