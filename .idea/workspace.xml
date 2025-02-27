@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a6be140e-bc53-4d18-ada0-c1a209234621" name="Changes" comment="task1 (Stream API examples).">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/aston/matveenko_ym/task1/FilterList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/aston/matveenko_ym/task1/WordsToMap.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/aston/matveenko_ym/task1/FilterNegativeNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/aston/matveenko_ym/task1/FilterNegativeNumbers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/aston/matveenko_ym/task1/SortArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/aston/matveenko_ym/task1/SortArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/aston/matveenko_ym/task1/SumArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/aston/matveenko_ym/task1/SumArray.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +57,9 @@
   &quot;associatedIndex&quot;: 1
 }</component>
   <component name="ProjectId" id="2tdHoeqWh8c4raLPVTAXPHWQQDQ" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="false" />
@@ -73,6 +72,7 @@
     "Application.FilterNegativeNumbers.executor": "Run",
     "Application.SortArray.executor": "Run",
     "Application.SumArray.executor": "Run",
+    "Application.WordsToMap.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -85,20 +85,7 @@
     "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.FilterList">
-    <configuration name="EvenNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.aston.matveenko_ym.task1.EvenNumbers" />
-      <module name="ASTON_Intensive" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.aston.matveenko_ym.task1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.WordsToMap">
     <configuration name="FilterList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.aston.matveenko_ym.task1.FilterList" />
       <module name="ASTON_Intensive" />
@@ -153,20 +140,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WordsToMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.aston.matveenko_ym.task1.WordsToMap" />
+      <module name="ASTON_Intensive" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.aston.matveenko_ym.task1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.FilterList" />
       <item itemvalue="Application.FilterNegativeNumbers" />
       <item itemvalue="Application.SortArray" />
-      <item itemvalue="Application.EvenNumbers" />
+      <item itemvalue="Application.WordsToMap" />
       <item itemvalue="Application.SumArray" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.WordsToMap" />
         <item itemvalue="Application.FilterList" />
         <item itemvalue="Application.FilterNegativeNumbers" />
         <item itemvalue="Application.SortArray" />
         <item itemvalue="Application.SumArray" />
-        <item itemvalue="Application.EvenNumbers" />
       </list>
     </recent_temporary>
   </component>
@@ -267,7 +267,15 @@
       <option name="project" value="LOCAL" />
       <updated>1740682204927</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="task1 (Stream API examples).">
+      <option name="closed" value="true" />
+      <created>1740682735750</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1740682735750</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
