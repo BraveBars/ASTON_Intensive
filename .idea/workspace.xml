@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a6be140e-bc53-4d18-ada0-c1a209234621" name="Changes" comment="task1 (Stream API examples)." />
+    <list default="true" id="a6be140e-bc53-4d18-ada0-c1a209234621" name="Changes" comment="task1 (Stream API examples).">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,6 +27,13 @@
             <value>
               <list>
                 <branch-info repo="$PROJECT_DIR$" source="feature/task1" />
+              </list>
+            </value>
+          </entry>
+          <entry type="REMOTE">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="origin/feature/task1" />
               </list>
             </value>
           </entry>
@@ -326,10 +335,23 @@
       <option name="project" value="LOCAL" />
       <updated>1740691194372</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="task1 (Stream API examples).">
+      <option name="closed" value="true" />
+      <created>1740691383186</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1740691383186</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="d1b24c61-1859-4589-99a5-ae9b178e0bb0" value="TOOL_WINDOW" />
+      </map>
+    </option>
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
@@ -347,6 +369,11 @@
                 </map>
               </option>
             </State>
+          </value>
+        </entry>
+        <entry key="d1b24c61-1859-4589-99a5-ae9b178e0bb0">
+          <value>
+            <State />
           </value>
         </entry>
       </map>
