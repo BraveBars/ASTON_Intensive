@@ -9,9 +9,11 @@ import java.util.List;
 public class FilterNegativeNumbers {
     public static void main(String[] args) {
         List<Integer> numbers = Arrays.asList(-5, 3, -1, 7, 0, -2, 4, 8);
+
         List<Integer> filteredNumbers = numbers.stream()
                 .filter(n -> n >= 0)
                 .toList();
+
         System.out.println("Отфильтрованный список: " + filteredNumbers);
     }
 }
