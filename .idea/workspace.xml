@@ -309,7 +309,15 @@
       <option name="project" value="LOCAL" />
       <updated>1740687353539</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="task1 (Stream API examples).">
+      <option name="closed" value="true" />
+      <created>1740690921406</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1740690921406</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
