@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a6be140e-bc53-4d18-ada0-c1a209234621" name="Changes" comment="task1 (Stream API examples).">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,7 +42,7 @@
     </favorite-branches>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="feature/task1" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -58,17 +57,17 @@
     &quot;assignee&quot;: &quot;KoRn1984&quot;
   }
 }</component>
-  <component name="GitHubPullRequestState"><![CDATA[{
-  "prStates": [
+  <component name="GitHubPullRequestState">{
+  &quot;prStates&quot;: [
     {
-      "id": {
-        "id": "PR_kwDOOAkkPs6M3ETd",
-        "number": 1
+      &quot;id&quot;: {
+        &quot;id&quot;: &quot;PR_kwDOOAkkPs6M3ETd&quot;,
+        &quot;number&quot;: 1
       },
-      "lastSeen": 1740746049656
+      &quot;lastSeen&quot;: 1740746049656
     }
   ]
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/KoRn1984/ASTON_Intensive&quot;,
@@ -97,29 +96,29 @@
     <option name="showExcludedFiles" value="false" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.EvenNumbers.executor": "Run",
-    "Application.FilterList.executor": "Run",
-    "Application.FilterNegativeNumbers.executor": "Run",
-    "Application.PairCounter.executor": "Run",
-    "Application.ProductTable.executor": "Run",
-    "Application.SortArray.executor": "Run",
-    "Application.StreamExample.executor": "Run",
-    "Application.StreamFilterExample.executor": "Run",
-    "Application.SumArray.executor": "Run",
-    "Application.WordsToMap.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "#1 on feature/task1",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.EvenNumbers.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FilterList.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FilterNegativeNumbers.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PairCounter.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ProductTable.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SortArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StreamExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StreamFilterExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SumArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.WordsToMap.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;#1 on feature/task1&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.javacompiler&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.PairCounter">
     <configuration name="PairCounter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.aston.matveenko_ym.task1.PairCounter" />
@@ -196,10 +195,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.PairCounter" />
+        <item itemvalue="Application.WordsToMap" />
         <item itemvalue="Application.StreamFilterExample" />
         <item itemvalue="Application.StreamExample" />
         <item itemvalue="Application.ProductTable" />
-        <item itemvalue="Application.WordsToMap" />
       </list>
     </recent_temporary>
   </component>
