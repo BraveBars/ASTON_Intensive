@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a6be140e-bc53-4d18-ada0-c1a209234621" name="Changes" comment="task1 (Stream API examples)." />
+    <list default="true" id="a6be140e-bc53-4d18-ada0-c1a209234621" name="Changes" comment="README file is created.">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,6 +47,23 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "KoRn1984"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/KoRn1984/ASTON_Intensive",
+    "accountId": "3dc882a7-2343-40cf-83db-3c69d0cb6f3d"
+  }
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 1
+}]]></component>
+  <component name="ProjectId" id="2tfdwfKt4l07CLfzCaIGlbm3CqP" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -53,28 +72,29 @@
     <option name="showExcludedFiles" value="false" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.EvenNumbers.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FilterList.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FilterNegativeNumbers.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PairCounter.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ProductTable.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SortArray.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StreamExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StreamFilterExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SumArray.executor&quot;: &quot;Run&quot;,
-    &quot;Application.WordsToMap.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.3862069&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.EvenNumbers.executor": "Run",
+    "Application.FilterList.executor": "Run",
+    "Application.FilterNegativeNumbers.executor": "Run",
+    "Application.PairCounter.executor": "Run",
+    "Application.ProductTable.executor": "Run",
+    "Application.SortArray.executor": "Run",
+    "Application.StreamExample.executor": "Run",
+    "Application.StreamFilterExample.executor": "Run",
+    "Application.SumArray.executor": "Run",
+    "Application.WordsToMap.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.3862069",
+    "settings.editor.selected.configurable": "vcs.Git"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Application.PairCounter">
     <configuration name="PairCounter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.aston.matveenko_ym.task1.PairCounter" />
@@ -351,7 +371,15 @@
       <option name="project" value="LOCAL" />
       <updated>1740746981134</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="README file is created.">
+      <option name="closed" value="true" />
+      <created>1740747635896</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1740747635896</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -390,6 +418,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Create project." />
     <MESSAGE value="task1 (Stream API examples)." />
-    <option name="LAST_COMMIT_MESSAGE" value="task1 (Stream API examples)." />
+    <MESSAGE value="README file is created." />
+    <option name="LAST_COMMIT_MESSAGE" value="README file is created." />
   </component>
 </project>
