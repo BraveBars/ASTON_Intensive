@@ -13,7 +13,7 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
-  <component name="RunManager" selected="Application.FilterList">
+  <component name="RunManager" selected="Application.EvenNumbers">
     <configuration name="EvenNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.aston.matveenko_ym.task1.EvenNumbers" />
       <module name="ASTON_Intensive" />
@@ -48,8 +48,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.FilterList" />
         <item itemvalue="Application.EvenNumbers" />
+        <item itemvalue="Application.FilterList" />
       </list>
     </recent_temporary>
   </component>
