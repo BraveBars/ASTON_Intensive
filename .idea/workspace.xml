@@ -55,17 +55,17 @@
     &quot;assignee&quot;: &quot;KoRn1984&quot;
   }
 }</component>
-  <component name="GitHubPullRequestState"><![CDATA[{
-  "prStates": [
+  <component name="GitHubPullRequestState">{
+  &quot;prStates&quot;: [
     {
-      "id": {
-        "id": "PR_kwDOOAkkPs6M3ETd",
-        "number": 1
+      &quot;id&quot;: {
+        &quot;id&quot;: &quot;PR_kwDOOAkkPs6M3ETd&quot;,
+        &quot;number&quot;: 1
       },
-      "lastSeen": 1740751435622
+      &quot;lastSeen&quot;: 1740751435622
     }
   ]
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/KoRn1984/ASTON_Intensive&quot;,
@@ -117,7 +117,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.javacompiler&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.PairCounter">
+  <component name="RunManager" selected="Application.WordsToMap">
     <configuration name="PairCounter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.aston.matveenko_ym.task1.PairCounter" />
       <module name="ASTON_Intensive" />
@@ -192,8 +192,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.PairCounter" />
         <item itemvalue="Application.WordsToMap" />
+        <item itemvalue="Application.PairCounter" />
         <item itemvalue="Application.StreamFilterExample" />
         <item itemvalue="Application.StreamExample" />
         <item itemvalue="Application.ProductTable" />
@@ -393,7 +393,15 @@
       <option name="project" value="LOCAL" />
       <updated>1740751393534</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="task1">
+      <option name="closed" value="true" />
+      <created>1740751745448</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1740751745448</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
