@@ -55,17 +55,17 @@
     &quot;assignee&quot;: &quot;KoRn1984&quot;
   }
 }</component>
-  <component name="GitHubPullRequestState">{
-  &quot;prStates&quot;: [
+  <component name="GitHubPullRequestState"><![CDATA[{
+  "prStates": [
     {
-      &quot;id&quot;: {
-        &quot;id&quot;: &quot;PR_kwDOOAkkPs6M3ETd&quot;,
-        &quot;number&quot;: 1
+      "id": {
+        "id": "PR_kwDOOAkkPs6M3ETd",
+        "number": 1
       },
-      &quot;lastSeen&quot;: 1740746049656
+      "lastSeen": 1740751435622
     }
   ]
-}</component>
+}]]></component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/KoRn1984/ASTON_Intensive&quot;,
@@ -385,7 +385,15 @@
       <option name="project" value="LOCAL" />
       <updated>1740750997153</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="task1">
+      <option name="closed" value="true" />
+      <created>1740751393534</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1740751393534</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
