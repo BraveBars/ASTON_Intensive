@@ -4,88 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a6be140e-bc53-4d18-ada0-c1a209234621" name="Changes" comment="task1" />
+    <list default="true" id="a6be140e-bc53-4d18-ada0-c1a209234621" name="Changes" comment="resolve">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
-  <component name="Git.Settings">
-    <favorite-branches>
-      <branch-storage>
-        <map>
-          <entry type="LOCAL">
-            <value>
-              <list>
-                <branch-info repo="$PROJECT_DIR$" source="feature/task1" />
-              </list>
-            </value>
-          </entry>
-          <entry type="REMOTE">
-            <value>
-              <list>
-                <branch-info repo="$PROJECT_DIR$" source="origin/feature/task1" />
-              </list>
-            </value>
-          </entry>
-        </map>
-      </branch-storage>
-    </favorite-branches>
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="master" />
-      </map>
-    </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="GitHubPullRequestSearchHistory">{
-  &quot;history&quot;: [
-    {
-      &quot;assignee&quot;: &quot;KoRn1984&quot;
-    }
-  ],
-  &quot;lastFilter&quot;: {
-    &quot;assignee&quot;: &quot;KoRn1984&quot;
-  }
-}</component>
-  <component name="GitHubPullRequestState">{
-  &quot;prStates&quot;: [
-    {
-      &quot;id&quot;: {
-        &quot;id&quot;: &quot;PR_kwDOOAkkPs6M3ETd&quot;,
-        &quot;number&quot;: 1
-      },
-      &quot;lastSeen&quot;: 1740751435622
-    }
-  ]
-}</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/KoRn1984/ASTON_Intensive&quot;,
-    &quot;accountId&quot;: &quot;3dc882a7-2343-40cf-83db-3c69d0cb6f3d&quot;
-  },
-  &quot;recentNewPullRequestHead&quot;: {
-    &quot;server&quot;: {
-      &quot;useHttp&quot;: false,
-      &quot;host&quot;: &quot;github.com&quot;,
-      &quot;port&quot;: null,
-      &quot;suffix&quot;: null
-    },
-    &quot;owner&quot;: &quot;KoRn1984&quot;,
-    &quot;repository&quot;: &quot;ASTON_Intensive&quot;
-  }
-}</component>
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 1
-}</component>
-  <component name="ProjectId" id="2tdHoeqWh8c4raLPVTAXPHWQQDQ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -94,32 +20,32 @@
     <option name="showExcludedFiles" value="false" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.EvenNumbers.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FilterList.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FilterNegativeNumbers.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PairCounter.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ProductTable.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SortArray.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StreamExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StreamFilterExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SumArray.executor&quot;: &quot;Run&quot;,
-    &quot;Application.WordsToMap.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;#1 on feature/task1&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.javacompiler&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.EvenNumbers.executor": "Run",
+    "Application.FilterList.executor": "Run",
+    "Application.FilterNegativeNumbers.executor": "Run",
+    "Application.PairCounter.executor": "Run",
+    "Application.ProductTable.executor": "Run",
+    "Application.SortArray.executor": "Run",
+    "Application.StreamExample.executor": "Run",
+    "Application.StreamFilterExample.executor": "Run",
+    "Application.SumArray.executor": "Run",
+    "Application.WordsToMap.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "#1 on feature/task1",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler"
   }
-}</component>
-  <component name="RunManager" selected="Application.WordsToMap">
-    <configuration name="PairCounter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.aston.matveenko_ym.task1.PairCounter" />
+}]]></component>
+  <component name="RunManager" selected="Application.EvenNumbers">
+    <configuration name="EvenNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.aston.matveenko_ym.task1.EvenNumbers" />
       <module name="ASTON_Intensive" />
       <extension name="coverage">
         <pattern>
@@ -131,12 +57,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProductTable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.aston.matveenko_ym.task1.product.ProductTable" />
+    <configuration name="PairCounter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.aston.matveenko_ym.task1.PairCounter" />
       <module name="ASTON_Intensive" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.aston.matveenko_ym.task1.product.*" />
+          <option name="PATTERN" value="ru.aston.matveenko_ym.task1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -184,19 +110,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.EvenNumbers" />
       <item itemvalue="Application.PairCounter" />
-      <item itemvalue="Application.ProductTable" />
       <item itemvalue="Application.StreamExample" />
       <item itemvalue="Application.StreamFilterExample" />
       <item itemvalue="Application.WordsToMap" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EvenNumbers" />
         <item itemvalue="Application.WordsToMap" />
         <item itemvalue="Application.PairCounter" />
         <item itemvalue="Application.StreamFilterExample" />
         <item itemvalue="Application.StreamExample" />
-        <item itemvalue="Application.ProductTable" />
       </list>
     </recent_temporary>
   </component>
@@ -441,6 +367,7 @@
     <MESSAGE value="Create project." />
     <MESSAGE value="task1 (Stream API examples)." />
     <MESSAGE value="task1" />
-    <option name="LAST_COMMIT_MESSAGE" value="task1" />
+    <MESSAGE value="resolve" />
+    <option name="LAST_COMMIT_MESSAGE" value="resolve" />
   </component>
 </project>
