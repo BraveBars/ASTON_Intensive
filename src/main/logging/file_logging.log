@@ -1,0 +1,14 @@
+2025-03-02 16:57:59 ERROR FileUtilsDemo:32 - Error reading from file or writing to file!
+java.nio.file.NoSuchFileException: .\src\main\resources\input1.txt
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:236)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:380)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:432)
+	at java.base/java.nio.file.spi.FileSystemProvider.newInputStream(FileSystemProvider.java:422)
+	at java.base/java.nio.file.Files.newInputStream(Files.java:160)
+	at java.base/java.nio.file.Files.newBufferedReader(Files.java:2922)
+	at java.base/java.nio.file.Files.newBufferedReader(Files.java:2955)
+	at ru.aston.matveenko_ym.task2.FileUtils.readFile(FileUtils.java:24)
+	at ru.aston.matveenko_ym.task2.FileUtilsDemo.main(FileUtilsDemo.java:15)

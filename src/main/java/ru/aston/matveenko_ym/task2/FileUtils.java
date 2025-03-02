@@ -1,7 +1,10 @@
 package ru.aston.matveenko_ym.task2;
 
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
 import java.io.IOException;
 import java.nio.file.Files;
+import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.nio.file.StandardOpenOption;
 import java.util.ArrayList;
@@ -17,14 +20,27 @@ public class FileUtils {
      * @throws IOException - проброс исключения ввода-вывода
      */
     public static List<String> readFile(String filePath) throws IOException {
-        return Files.readAllLines(Paths.get(filePath));
+        List<String> lines = new ArrayList<>();
+        try (BufferedReader reader = Files.newBufferedReader(Paths.get(filePath))) {
+            String line;
+            while ((line = reader.readLine()) != null) {
+                lines.add(line);
+            }
+        }
+        return lines;
     }
 
     /**
      * Метод, который записывает в файл список строк, переданный параметром.
      */
     public static void writeFile(String filePath, List<String> content) throws IOException {
-        Files.write(Paths.get(filePath), content, StandardOpenOption.CREATE, StandardOpenOption.TRUNCATE_EXISTING);
+        try (BufferedWriter writer = Files.newBufferedWriter(Paths.get(filePath),
+                StandardOpenOption.CREATE, StandardOpenOption.TRUNCATE_EXISTING)) {
+            for (String line : content) {
+                writer.write(line);
+                writer.newLine();
+            }
+        }
     }
 
     /**
@@ -55,16 +71,24 @@ public class FileUtils {
      * Метод, который заменяет в файле всё, кроме букв и цифр, на знак ‘$’.
      */
     public static void replaceNonAlphanumeric(String filePath) throws IOException {
-        // Читаем строки из файла.
-        List<String> lines = readFile(filePath);
-
-        // Преобразуем каждую строку, где заменяем всё, кроме букв и цифр, на знак ‘$’.
         List<String> updatedLines = new ArrayList<>();
-        for (String line : lines) {
-            updatedLines.add(line.replaceAll("[^a-zA-Zа-яА-Я0-9]", "\\$"));
+        Path path = Paths.get(filePath);
+
+        // Читаем файл и преобразуем каждую строку, где заменяем всё, кроме букв и цифр, на знак ‘$’.
+        try (BufferedReader reader = Files.newBufferedReader(path)) {
+            String line;
+            while ((line = reader.readLine()) != null) {
+                updatedLines.add(line.replaceAll("[^a-zA-Zа-яА-Я0-9]", "\\$"));
+            }
         }
 
-        // Записываем обновленные строки обратно в файл.
-        writeFile(filePath, updatedLines);
+        // Записываем обновленный файл.
+        try (BufferedWriter writer = Files.newBufferedWriter(path,
+                StandardOpenOption.CREATE, StandardOpenOption.TRUNCATE_EXISTING)) {
+            for (String line : updatedLines) {
+                writer.write(line);
+                writer.newLine();
+            }
+        }
     }
 }
