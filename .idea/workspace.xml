@@ -10,6 +10,14 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -18,7 +26,7 @@
     "Application.EvenNumbers.executor": "Run",
     "Application.FilterList.executor": "Run",
     "Application.FilterNegativeNumbers.executor": "Run",
-    "git-widget-placeholder": "#1 on feature/task1",
+    "git-widget-placeholder": "feature/task2",
     "settings.editor.selected.configurable": "project.propCompiler"
   }
 }]]></component>
@@ -71,9 +79,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FilterList" />
         <item itemvalue="Application.EvenNumbers" />
         <item itemvalue="Application.FilterNegativeNumbers" />
         <item itemvalue="Application.FilterList" />
+        <item itemvalue="Application.EvenNumbers" />
       </list>
     </recent_temporary>
   </component>
@@ -113,9 +123,32 @@
     <option name="localTasksCounter" value="5" />
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="feature/task2" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="README file is created." />
     <MESSAGE value="task1." />
-    <option name="LAST_COMMIT_MESSAGE" value="task1." />
+    <MESSAGE value="README file is created." />
+    <option name="LAST_COMMIT_MESSAGE" value="README file is created." />
   </component>
 </project>
