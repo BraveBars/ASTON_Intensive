@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3cc02f27-3643-425d-ae9a-cfbfba0edeac" name="Changes" comment="created feature/task2.">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-    </list>
+    <list default="true" id="3cc02f27-3643-425d-ae9a-cfbfba0edeac" name="Changes" comment="task2 (added questions)." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -176,7 +174,15 @@
       <option name="project" value="LOCAL" />
       <updated>1740914210155</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="task2 (added questions).">
+      <option name="closed" value="true" />
+      <created>1740914840118</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1740914840118</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -206,6 +212,7 @@
     <MESSAGE value="task1." />
     <MESSAGE value="README file is created." />
     <MESSAGE value="created feature/task2." />
-    <option name="LAST_COMMIT_MESSAGE" value="created feature/task2." />
+    <MESSAGE value="task2 (added questions)." />
+    <option name="LAST_COMMIT_MESSAGE" value="task2 (added questions)." />
   </component>
 </project>
