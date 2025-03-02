@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3cc02f27-3643-425d-ae9a-cfbfba0edeac" name="Changes" comment="task2 (development process)." />
+    <list default="true" id="3cc02f27-3643-425d-ae9a-cfbfba0edeac" name="Changes" comment="task2 (development process).">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/aston/matveenko_ym/task2/FileUtilsDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/aston/matveenko_ym/task2/FileUtilsDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/file1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/files/file1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/file2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/files/file2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/files/input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/merged.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/files/merged.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/files/output.txt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -79,6 +87,11 @@
     "settings.editor.selected.configurable": "project.propCompiler"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Java\Projects\ASTON_Intensive\src\main\resources\files" />
+    </key>
+  </component>
   <component name="RunManager" selected="Application.FileUtilsDemo">
     <configuration name="EvenNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.aston.matveenko_ym.task1.EvenNumbers" />
@@ -247,7 +260,15 @@
       <option name="project" value="LOCAL" />
       <updated>1740924017750</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="task2 (development process).">
+      <option name="closed" value="true" />
+      <created>1740924340732</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1740924340732</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
