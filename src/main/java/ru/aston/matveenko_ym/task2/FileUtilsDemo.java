@@ -21,7 +21,7 @@ public class FileUtilsDemo {
 
             // Замена символов в файле
             FileUtils.replaceNonAlphanumeric(".\\src\\main\\resources\\input.txt");
-            System.out.println("Файл 'input.txt' обработан (замена символов): \n");
+            System.out.println("Файл 'input.txt' обработан (замена символов).");
             System.out.println();
 
         } catch (IOException e) {
