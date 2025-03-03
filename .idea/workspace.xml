@@ -1,12 +1,78 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="RunManager" selected="Application.FileUtilsDemo">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3cc02f27-3643-425d-ae9a-cfbfba0edeac" name="Changes" comment="Master." />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="feature/task2" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="feature/task2" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="false" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.EvenNumbers.executor": "Run",
+    "Application.FileUtilsDemo.executor": "Run",
+    "Application.FilterList.executor": "Run",
+    "Application.FilterNegativeNumbers.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "settings.editor.selected.configurable": "project.propCompiler"
+  }
+}]]></component>
+  <component name="RunManager" selected="Application.EvenNumbers">
     <configuration name="EvenNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.aston.matveenko_ym.task1.EvenNumbers" />
       <module name="ASTON_Intensive" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="ru.aston.matveenko_ym.task1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FileUtilsDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.aston.matveenko_ym.task2.FileUtilsDemo" />
+      <module name="ASTON_Intensive" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.aston.matveenko_ym.task2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -65,10 +131,178 @@
       <list>
         <item itemvalue="Application.FileUtilsDemo" />
         <item itemvalue="Application.FilterList" />
+        <item itemvalue="Application.FilterList" />
         <item itemvalue="Application.EvenNumbers" />
         <item itemvalue="Application.FilterNegativeNumbers" />
+        <item itemvalue="Application.FileUtilsDemo" />
         <item itemvalue="Application.FilterList" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task id="LOCAL-00001" summary="README file is created.">
+      <option name="closed" value="true" />
+      <created>1740755515316</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1740755515316</updated>
+    </task>
+    <task id="LOCAL-00002" summary="task1.">
+      <option name="closed" value="true" />
+      <created>1740755584896</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1740755584896</updated>
+    </task>
+    <task id="LOCAL-00003" summary="task1.">
+      <option name="closed" value="true" />
+      <created>1740755677095</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1740755677095</updated>
+    </task>
+    <task id="LOCAL-00004" summary="task1.">
+      <option name="closed" value="true" />
+      <created>1740755824560</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1740755824560</updated>
+    </task>
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3cc02f27-3643-425d-ae9a-cfbfba0edeac" name="Changes" comment="task1." />
+      <created>1740914137415</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1740914137415</updated>
+    </task>
+    <task id="LOCAL-00005" summary="created feature/task2.">
+      <option name="closed" value="true" />
+      <created>1740914210155</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1740914210155</updated>
+    </task>
+    <task id="LOCAL-00006" summary="task2 (added questions).">
+      <option name="closed" value="true" />
+      <created>1740914840118</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1740914840118</updated>
+    </task>
+    <task id="LOCAL-00007" summary="task2 (added questions).">
+      <option name="closed" value="true" />
+      <created>1740914939390</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1740914939390</updated>
+    </task>
+    <task id="LOCAL-00008" summary="task2 (development process).">
+      <option name="closed" value="true" />
+      <created>1740919652740</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1740919652740</updated>
+    </task>
+    <task id="LOCAL-00009" summary="task2 (development process).">
+      <option name="closed" value="true" />
+      <created>1740919711692</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1740919711692</updated>
+    </task>
+    <task id="LOCAL-00010" summary="task2 (development process).">
+      <option name="closed" value="true" />
+      <created>1740924000455</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1740924000455</updated>
+    </task>
+    <task id="LOCAL-00011" summary="task2 (development process).">
+      <option name="closed" value="true" />
+      <created>1740924017750</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1740924017750</updated>
+    </task>
+    <task id="LOCAL-00012" summary="task2 (development process).">
+      <option name="closed" value="true" />
+      <created>1740924340732</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1740924340732</updated>
+    </task>
+    <task id="LOCAL-00013" summary="task2 (development finished).">
+      <option name="closed" value="true" />
+      <created>1740925829705</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1740925829705</updated>
+    </task>
+    <task id="LOCAL-00014" summary="task2.">
+      <option name="closed" value="true" />
+      <created>1740985333611</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1740985333611</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Master.">
+      <option name="closed" value="true" />
+      <created>1740985429617</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1740985429617</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="feature/task2" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="task1." />
+    <MESSAGE value="README file is created." />
+    <MESSAGE value="created feature/task2." />
+    <MESSAGE value="task2 (added questions)." />
+    <MESSAGE value="task2 (development process)." />
+    <MESSAGE value="task2 (development finished)." />
+    <MESSAGE value="task2." />
+    <MESSAGE value="Master." />
+    <option name="LAST_COMMIT_MESSAGE" value="Master." />
   </component>
 </project>
