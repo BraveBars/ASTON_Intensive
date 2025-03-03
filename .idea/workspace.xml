@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="RunManager" selected="Application.FileUtilsDemo">
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
@@ -79,6 +80,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FileUtilsDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.aston.matveenko_ym.task2.FileUtilsDemo" />
+      <module name="ASTON_Intensive" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.aston.matveenko_ym.task2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FilterList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="openjdk-17" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -115,6 +129,8 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FileUtilsDemo" />
+        <item itemvalue="Application.FilterList" />
         <item itemvalue="Application.FilterList" />
         <item itemvalue="Application.EvenNumbers" />
         <item itemvalue="Application.FilterNegativeNumbers" />
