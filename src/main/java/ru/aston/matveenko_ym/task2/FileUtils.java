@@ -9,6 +9,7 @@ import java.nio.file.Paths;
 import java.nio.file.StandardOpenOption;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.stream.Stream;
 
 public class FileUtils {
 
@@ -54,14 +55,11 @@ public class FileUtils {
      * Метод, который склеивает два текстовых файла в один.
      */
     public static void mergeFiles(String file1Path, String file2Path, String outputFilePath) throws IOException {
-        // Читаем содержимое обоих файлов.
-        List<String> file1Content = readFile(file1Path);
-        List<String> file2Content = readFile(file2Path);
-
         // Объединяем содержимое обоих файлов.
-        List<String> mergedContent = new ArrayList<>();
-        mergedContent.addAll(file1Content);
-        mergedContent.addAll(file2Content);
+        List<String> mergedContent = Stream.concat(
+                readFile(file1Path).stream(),
+                readFile(file2Path).stream()
+        ).toList();
 
         // Записываем результат в файл.
         writeFile(outputFilePath, mergedContent);
@@ -70,7 +68,7 @@ public class FileUtils {
     /**
      * Метод, который заменяет в файле всё, кроме букв и цифр, на знак ‘$’.
      */
-    public static void replaceNonAlphanumeric(String filePath) throws IOException {
+    public static void replaceNonAlphanumeric(String filePath, Character symbol) throws IOException {
         List<String> updatedLines = new ArrayList<>();
         Path path = Paths.get(filePath);
 
@@ -78,7 +76,7 @@ public class FileUtils {
         try (BufferedReader reader = Files.newBufferedReader(path)) {
             String line;
             while ((line = reader.readLine()) != null) {
-                updatedLines.add(line.replaceAll("[^a-zA-Zа-яА-Я0-9]", "\\$"));
+                updatedLines.add(line.replaceAll("[^a-zA-Zа-яА-Я0-9]", "\\" + symbol));
             }
         }
 

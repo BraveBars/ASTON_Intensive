@@ -29,7 +29,7 @@ public class FileUtilsDemo {
             FileUtils.mergeFiles(FILE1_PATH, FILE2_PATH, FILE_PATH_MERGED);
 
             // Замена символов в файле.
-            FileUtils.replaceNonAlphanumeric(FILE_PATH_INPUT);
+            FileUtils.replaceNonAlphanumeric(FILE_PATH_INPUT, '$');
             System.out.println("Файл 'input.txt' обработан (замена символов)!");
 
         } catch (IOException ioException) {
