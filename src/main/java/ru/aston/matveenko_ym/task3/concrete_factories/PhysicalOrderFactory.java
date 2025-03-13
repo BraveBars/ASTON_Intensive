@@ -8,6 +8,7 @@ import ru.aston.matveenko_ym.task3.concrete_payment.PayPalPayment;
 import ru.aston.matveenko_ym.task3.concrete_products.PhysicalProduct;
 
 public class PhysicalOrderFactory implements OrderFactory {
+
     @Override
     public Product createProduct(String type, String name) {
         return new PhysicalProduct(name);
