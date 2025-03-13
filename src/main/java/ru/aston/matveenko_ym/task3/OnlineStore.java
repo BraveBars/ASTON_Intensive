@@ -11,7 +11,7 @@ public class OnlineStore {
         OrderFactory digitalFactory = new DigitalOrderFactory();
         OrderManager digitalOrder = new OrderManager(digitalFactory, "DIGITAL", "Электронная книга", "CREDIT");
         digitalOrder.placeOrder(500);
-
+        System.out.println("------------------------------------");
         OrderFactory physicalFactory = new PhysicalOrderFactory();
         OrderManager physicalOrder = new OrderManager(physicalFactory, "PHYSICAL", "Физическая книга", "PAYPAL");
         physicalOrder.placeOrder(800);
