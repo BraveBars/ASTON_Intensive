@@ -1,6 +1,6 @@
-package ru.aston.matveenko_ym.task3.concrete_products;
+package ru.aston.matveenko_ym.patterns.creational.abstract_factory.concrete_products;
 
-import ru.aston.matveenko_ym.task3.abstract_products.Product;
+import ru.aston.matveenko_ym.patterns.creational.abstract_factory.abstract_products.Product;
 
 public class PhysicalProduct implements Product {
     private final String name;

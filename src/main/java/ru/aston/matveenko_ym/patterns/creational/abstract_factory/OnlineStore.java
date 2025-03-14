@@ -1,9 +1,9 @@
-package ru.aston.matveenko_ym.task3;
+package ru.aston.matveenko_ym.patterns.creational.abstract_factory;
 
-import ru.aston.matveenko_ym.task3.abstract_factory.OrderFactory;
-import ru.aston.matveenko_ym.task3.client.OrderManager;
-import ru.aston.matveenko_ym.task3.concrete_factories.DigitalOrderFactory;
-import ru.aston.matveenko_ym.task3.concrete_factories.PhysicalOrderFactory;
+import ru.aston.matveenko_ym.patterns.creational.abstract_factory.abstract_order_factory.OrderFactory;
+import ru.aston.matveenko_ym.patterns.creational.abstract_factory.client.OrderManager;
+import ru.aston.matveenko_ym.patterns.creational.abstract_factory.concrete_factories.DigitalOrderFactory;
+import ru.aston.matveenko_ym.patterns.creational.abstract_factory.concrete_factories.PhysicalOrderFactory;
 
 public class OnlineStore {
 

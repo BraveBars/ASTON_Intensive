@@ -1,6 +1,6 @@
-package ru.aston.matveenko_ym.task3.concrete_payment;
+package ru.aston.matveenko_ym.patterns.creational.abstract_factory.concrete_payment;
 
-import ru.aston.matveenko_ym.task3.abstract_products.Payment;
+import ru.aston.matveenko_ym.patterns.creational.abstract_factory.abstract_products.Payment;
 
 public class PayPalPayment implements Payment {
 
